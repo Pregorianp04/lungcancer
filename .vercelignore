@@ -17,3 +17,7 @@ __pycache__/
 venv/
 env/
 .venv/
+
+*.log          # File log
+__pycache__/   # Cache Python
+*.pyc          # File cache Python bytecode
