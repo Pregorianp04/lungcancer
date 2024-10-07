@@ -1,0 +1,19 @@
+# Abaikan folder 'data' yang mungkin berisi file dataset besar
+data/
+
+# Abaikan file-file model besar
+*.joblib
+*.pkl
+*.h5
+
+# Abaikan file CSV jika ada
+*.csv
+
+# Abaikan file Python bytecode
+__pycache__/
+*.py[cod]
+
+# Abaikan file virtual environment
+venv/
+env/
+.venv/
